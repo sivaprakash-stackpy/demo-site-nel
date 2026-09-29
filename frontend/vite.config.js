@@ -5,4 +5,8 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   base: '/demo-site-nel/',
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+  },
 })
