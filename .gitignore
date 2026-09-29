@@ -38,7 +38,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build outputs
-dist/
+# dist/ (commented out for GitHub Pages)
 build/
 *.egg-info/
 
